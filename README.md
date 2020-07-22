@@ -28,9 +28,10 @@ private static ExecutionMode _executionMode = ExecutionMode.InitializeFromDataba
 - Publish the model to azure
 3. Deploy the configuration database to Azure
 - Right-click the ConfigrationLogging project, select "properties", and change the "Target platform" to "Azure SQL Database"
-2. Right-click the CofigurationLogging project, select "publish". Edit the "Target database connection" using your Azure SQL Database connection info.
-4. In the newly deployed configuration database, update the ModelConfiguration record to use 
-5. Run the sample and verify that it successfully runs to completion.
+- Right-click the CofigurationLogging project, select "publish". Edit the "Target database connection" using your Azure SQL Database connection info.
+- In the newly deployed configuration database, update the ModelConfiguration record to use the Analysis service cofigured in step 2.
+4. Run the sample and verify that it successfully runs to completion.
 
-### Run sample code locally using remote configuration database and Azure Analysis service
-1. 
+### Deploy AsPartitionProcessing as an Azure Function
+
+
